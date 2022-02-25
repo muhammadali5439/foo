@@ -85,16 +85,77 @@ body {
     border-radius: 5px;
     background: #5267DF;
     color: #FFFFFF;
+    border: 2px solid #5267DF;
     /* border-color: indigo; */
     /* color: white; */
+}
+.Chrome:hover {
+    background-color: white;
+    color: #5267DF;
+    border: 2px solid #5267DF;
 }
 .Firefox {
     padding: 0;
     margin: 0;
+    padding: 10px 20px;
     margin-left: 20px;
     margin-top: 10px;
     margin-bottom: 10px;
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 5px;
+    border: 2px solid #FA5959;
+}
+.Firefox:hover {
+    border: 2px solid #FA5959;
+}
+.wirappir {
+    text-align: center;
+    align-items: center;
+}
+.sarlovha-3 {
+    color: #242A45;
+    font-weight: 500;
+    font-size: 32px;
+}
+.hero-text-1 {
+    width: 500px;
+    margin-left: 300px;
+}
+.hero-left-3 {
+    display: flex;
+    align-items: center;
+}
+.button-1 {
+    font-size: 16px;
+    color: #242A45;
+    border-style: inherit;
+    border: none;
+}
+
+.sarlovha-2 {
+    font-weight: 500;
+    font-size: 32px;
+    color: #242A45;
+}
+.hero-text-2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #242A45;
+}
+.link-list{
+    margin-top: 40px;
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    background: #5267DF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    border: 2px solid #242A45;
+}
+.link-list:hover {
+    color:red;
+    border-color: white;
+    border: 2px solid #242A45;
 }
