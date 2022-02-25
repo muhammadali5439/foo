@@ -1,0 +1,100 @@
+html {
+    box-sizing: border-box;
+}
+* {
+    box-sizing: inherit;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", "Arial", "sans-serif";
+    color: #242A45;;
+    font-size: 18px;
+    font-weight: 400;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header-container {
+    margin-top: 40px;
+    display: flex;
+}
+.nav-list {
+    margin: 0;
+    padding: 0;
+    margin-left: 350px;
+    display: flex;
+    list-style: none;
+}
+.nav-item {
+    margin-left: 44px;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+.nav-link {
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: red;
+}
+.login.nav-link {
+    padding: 15px 20px;
+    background: #FA5959;
+    border: 2px solid rgba(red, green, blue, alpha);
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+.login .nav-link :hover {
+    background-color: white;
+    color: #FA5959;
+    border: 2px solid rgba(red, green, blue, alpha);
+}
+/* hero? */
+.hero-container {
+    display: flex;
+}
+.hero-left {
+    width: 500px;
+    margin-top: 80px;
+}
+.sarlovha {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 32px;
+}
+.hero-text {
+    margin: 0;
+    margin-bottom: 25px;
+}
+.Chrome {
+    padding: 0;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background: #5267DF;
+    color: #FFFFFF;
+    /* border-color: indigo; */
+    /* color: white; */
+}
+.Firefox {
+    padding: 0;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
